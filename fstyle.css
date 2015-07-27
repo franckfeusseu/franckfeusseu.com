@@ -1,0 +1,50 @@
+html,body{
+min-height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
+text-align:justify;
+}
+.nav{
+ background: transparent;
+}
+header{
+   position: relative;
+   width: 100%;
+   min-height: auto;
+   text-align: center;
+   color: #fff;
+   background-image: url(image1.jpg);
+   background-position: center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+}
+header .header-content{
+   position: relative;
+   width: 100%;
+   padding: 100px 15px;
+   text-align: center;
+
+}
+header .header-content .header-content-inner h1{
+   margin-top: 0;
+   margin-bottom: 0;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+    
+@media(min-width: 768px){
+ header {
+  min-height: 100%;
+  }
+ header .header-content {
+  position: absolute;
+  top: 50%;
+  }
+}
+#contact{
+background-color: white;
+}
+
